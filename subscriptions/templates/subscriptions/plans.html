@@ -1,0 +1,6 @@
+<h1>Subscription Plans</h1>
+<ul>
+    {% for plan in plans %}
+    <li>{{ plan.name }} - {{ plan.price }} USD for {{ plan.duration_days }} days</li>
+    {% endfor %}
+</ul>
